@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sre-mcp-server": {
+      "command": "python",
+      "args": ["mcp-server.py"],
+      "env": {
+        "MCP_AUTH_LEVEL": "APIKey",
+        "ENABLE_TELEMETRY": "true"
+      }
+    }
+  }
+}
